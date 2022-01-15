@@ -218,7 +218,7 @@ o si fuera valido algo como esto
 _Podemos validar el usuario y el token su relacion en el siguiente endpoint en donde debemos incluir el id de usuario que deseamos validar_
 
 ```
-localhost:8080/api/token?id=def697bb-f751-4b82-bd44-0f541156d47c
+POST - http://localhost:8080/api/token?id=def697bb-f751-4b82-bd44-0f541156d47c
 ```
 
 Como variable header o de encabezado debemos colocar una con nombre token
