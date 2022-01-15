@@ -83,10 +83,6 @@ GET - http://localhost:8080/api/usuarios
 
 Con este endpoint podemos tener todos los usuarios creados ejemplo de resultado:
 
-```
-GET - http://localhost:8080/api/usuarios
-```
-
 Respuesta:
 
 ```
