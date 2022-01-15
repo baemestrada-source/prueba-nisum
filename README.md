@@ -6,48 +6,38 @@ Creacion y validacion de usuarios
 Diagrama de proyecto
 
 ```
-spring-boot-jwt/
+prueba/
  │
  ├── src/main/java/
- │   └── murraco
- │       ├── configuration
- │       │   └── SwaggerConfig.java
+ │   └── com.nisum.prueba
+ │       ├── config
+ │       │   └── configuracionSeguridad.java
  │       │
  │       ├── controller
- │       │   └── UserController.java
- │       │
- │       ├── dto
- │       │   ├── UserDataDTO.java
- │       │   └── UserResponseDTO.java
- │       │
- │       ├── exception
- │       │   ├── CustomException.java
- │       │   └── GlobalExceptionController.java
+ │       │   └── UsuarioController.java
  │       │
  │       ├── model
- │       │   ├── AppUserRole.java
- │       │   └── AppUser.java
+ │       │   ├── Phone.java
+ │       │   └── Usuario.java
+ │       │   └── UsuarioDto.java
  │       │
  │       ├── repository
- │       │   └── UserRepository.java
+ │       │   └── UsuarioRepository.java
  │       │
- │       ├── security
- │       │   ├── JwtTokenFilter.java
- │       │   ├── JwtTokenFilterConfigurer.java
- │       │   ├── JwtTokenProvider.java
- │       │   ├── MyUserDetails.java
- │       │   └── WebSecurityConfig.java
+ │       ├── respuesta
+ │       │   └── RespError.java
  │       │
- │       ├── service
- │       │   └── UserService.java
+ │       ├── servicio
+ │       │   └── UsuarioServicio.java
  │       │
- │       └── JwtAuthServiceApp.java
- │
+ │       ├── utilerias
+ │       │   └── seguridad.java
+ │       │
  ├── src/main/resources/
- │   └── application.yml
+ │   └── application.properties
  │
  ├── .gitignore
- ├── LICENSE
+ ├── HELP.md
  ├── mvnw/mvnw.cmd
  ├── README.md
  └── pom.xml
